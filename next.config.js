@@ -9,7 +9,7 @@ const nextConfig = {
     ],
   },
   output: "export",
-  distDir: "dist",
+  experimental: {},
 };
 
 module.exports = nextConfig
