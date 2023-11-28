@@ -15,8 +15,8 @@ const AnimeList = () => {
 
   useEffect(() => {
     if (inView) {
-      fetchAnime(page).then((res) => {
-        setData([...data, ...res]);
+      fetchAnime(page).then((res: unknown) => {
+        setData([...data, ...(res as Anime[])]);
       });
       page++;
     }
