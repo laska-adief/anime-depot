@@ -2,10 +2,6 @@
   "name": "anime-depot",
   "version": "0.1.0",
   "private": true,
-  "engines": {
-    "node": "20.10.0",
-    "npm": ">=8.19.4"
-  },
   "scripts": {
     "dev": "next dev",
     "build": "next build",
